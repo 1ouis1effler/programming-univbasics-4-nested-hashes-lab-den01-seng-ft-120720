@@ -106,7 +106,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
- alans_new_info = "GUI" #This is the variable set change the alan_kay's ":known_for" key value
+ alans_new_info = "GUI"
 programmer_hash[:alan_kay][:known_for] = alans_new_info
 programmer_hash #returning newly updated hash
 end
